@@ -1,0 +1,43 @@
+.header-container {
+    background-color: #60a510;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; /* Ensure full width */
+    position: fixed; /* Fixed position to stick to the top of the viewport */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Adjust z-index to ensure it's above other elements */
+    height: 60px;
+    font-family: cursive;
+  
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  
+  .login-button,
+  .signup-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color:#fff ;
+    font-family: cursive;
+  }
+
+.auth-options{
+    align-items: right;
+    padding: 10px;
+}
+
+.login-button:hover,
+.signup-button:hover{
+    border: 1px solid grey;
+  }
+  

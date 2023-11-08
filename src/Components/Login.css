@@ -1,0 +1,95 @@
+.sideNav{
+    background-color: #57960f;
+    left:0;
+    top:0;
+    position: fixed;
+    width:35%;
+    height:100%;
+    color: white;
+    font-family: cursive;
+}
+
+.heading{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 70px;
+    color:white;
+}
+
+.description{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 70px;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.head{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.tail{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 20px;
+}
+.subhead{
+    margin-bottom: 50px;
+}
+.details{
+    margin-left: 200px;
+}
+
+input{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+input[type=submit],.signup {
+    width: 35%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #57960f;
+    color:white;
+    transition: border-color 0.25s;
+    margin-top: 15px;
+    font-family: cursive;
+    margin-right: 15px;
+
+  }
+
+input[type=submit]:hover {
+    border-color: 2px solid white;
+}
+
+.details-heading{
+    color:#57960f;
+    text-align: left;
+}
+.buttons{
+    align-items: center;
+    width: 300px;
+}
+
+.detailsLink{
+    color:rgb(63, 63, 63);
+}
+
+
+.detailsLink:hover{
+    color:rgb(63, 63, 63);
+}

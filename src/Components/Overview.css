@@ -1,0 +1,148 @@
+.overview-container { 
+    width:1250px;
+    background-color: white;
+    height:400px;
+    background-image: url(./images/career_connect_bg.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 15px;
+    margin-top: 100px;
+  }
+
+  .desc-container{
+    margin-left: 460px;
+    padding: 10px;
+    text-align: left;
+  }
+  h2{
+    font-size: 28px;
+    font-weight: normal;
+    font-family: cursive;
+  }
+  h4{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: cursive;
+    text-align: justify;
+    padding-right: 30px;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: cursive;
+    font-weight: bold;   
+  }
+
+  .desc-button{
+    width:1250px;
+    margin-top: 80px;
+    margin-left: 410px;
+  }
+
+  .sign-button {
+    background-color: #57960f;
+    color: white;
+    margin-right: 10px;
+    font-family: cursive;
+    font-size: 20px;
+  }
+
+  .sign-button:hover{
+    border: 1px solid grey;
+    z-index: 1;
+  }
+
+  .container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    
+  }
+
+  .how-it-works-container { 
+    width:1200px;
+    background-color: white;
+    height:250px;
+    background-image: url(./images/how_it_works.PNG);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+  }
+
+  .desc-container1{
+    padding: 10px;
+    text-align: center;
+    height: 10px;
+  }
+
+  .highlight-points {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top:150px;
+  }
+
+  .container2{
+    background-color: white;
+    border-radius: 15px;
+    height:330px;
+    width:1250px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+  }
+
+  .student-container{
+    background-image: url('./images/Student1.png');
+    width:1200px;
+    height:280px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 15px;
+    background-color: #57960f;
+    padding: 10px;
+  }
+
+  .employer-container{
+    background-image: url('./images/Employer2.jpg');
+    width:1200px;
+    height:300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #57960f;
+    padding: 10px;
+  }
+
+
+.outer-rectangle {
+    margin: 2px;
+    margin-left: 450px;
+    width:730px;
+    height:280px;
+    border: 1px solid white; /* Set the color of the outer rectangle */
+    display: flex;
+  }
+  
+  .inner-rectangle {
+    margin: 2px;
+    width:720px;
+    height:270px;
+    border:1px solid white; /* Set the color of the inner rectangle */
+  }
+  
+  .textContain{
+    padding-left: 20px;
+    color: white;
+  }
+
+  .bywhomcontain{
+    margin-top: 80px;
+    margin-left: 520px;
+    color: white;
+  }
