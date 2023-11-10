@@ -1,5 +1,5 @@
 .header-container {
-    background-color: #60a510;
+    background-color: #57960f;;
     color: #fff;
     display: flex;
     justify-content: space-between; 
@@ -17,6 +17,7 @@
     font-size: 24px;
     margin: 0;
     padding: 15px;
+    height:50px;
   }
   
   
@@ -34,6 +35,7 @@
 .auth-options{
     align-items: right;
     padding: 10px;
+    display: flex;
 }
 
 .login-button:hover,
@@ -41,3 +43,4 @@
     border: 1px solid grey;
   }
   
+

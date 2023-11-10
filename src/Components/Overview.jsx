@@ -1,6 +1,6 @@
 import React from 'react';
-import careerConnectImage from './images/career_connect_bg.jpg'
 import './Overview.css';
+import { Link } from "react-router-dom";
 
 const Overview = () => {
     return (
@@ -13,7 +13,7 @@ const Overview = () => {
                 <br></br>
             </div>
             <div className='desc-button'>
-                <button className="sign-button">Seize the opportunity. Enroll now!</button>
+            <Link to="/login" ><button className="sign-button">Seize the opportunity. Enroll now!</button></Link>
             </div>
         </div>
         <br></br>

@@ -1,0 +1,150 @@
+.profile-cont{
+    width:1000px;
+    height:1000px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 18px;
+    z-index: 2;
+    align-content: center;
+}
+
+.add-photo {
+    width: 50px;
+    height: 50px;
+    background-color: #57960f;
+    border-radius: 50%;
+    background-image:url('./images/cadd_photo.png');
+    background-size: cover;
+  }
+
+  .add-photo-out {
+    width: 50px;
+    height: 50px;
+    background-color: #57960f;
+    border-radius: 50%;
+    padding: 40px;
+    padding-top: 10px;
+    margin-left: 270px;
+    margin-top: -50px;
+  }
+
+  .add-photo-txt{
+    color:white;
+    font-size: 10px;
+    padding-top:5px;
+    font-family: cursive;
+  }
+  .frame{
+    border: 1px solid #57960f;
+    width:700px;
+    margin-left: 150px;
+    margin-top: 60px;
+    color:black;
+    z-index: 2;
+    border-radius: 18px;
+    padding-bottom: 100px;
+
+  }
+
+  .details-heading3{
+    color:#57960f;
+    text-align: center;
+    padding-right: 80px;
+}
+
+.degree, .gradDate{
+    color:black;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.name{
+    color:black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.build-resume{
+text-align: left;
+padding: 40px;
+}
+
+.add-skills {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    width:fit-content;
+    margin-right: 10px;
+  }
+  
+  .skill span {
+    font-size: 16px;
+    width:fit-content;
+    white-space: nowrap;
+  }
+  
+  .skill button {
+    background-image: url('./images/remove.png');
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-size: contain;
+    border-radius: 5px;
+  }
+  
+  .add-skill {
+    text-align: left;
+  }
+  
+  .add-skill input {
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+  }
+  
+  .add-skill button {
+    padding: 10px 20px;
+    background-color: #57960f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .attributes{
+    color:black;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+  }
+  .skills{
+    padding-left:40px;
+  }
+  

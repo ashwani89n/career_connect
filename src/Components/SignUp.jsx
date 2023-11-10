@@ -186,15 +186,13 @@ const SignUp = () => {
                                                     value={additionalFormData[field] || ''}
                                                 />
                                             )}</td>
-                    </tr>
+                                         </tr>
+                                    </div>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
-                ))}
-            </tbody>
-        </table>
-
-
-                    </div>
-            </div>
+                </div>
             </form>
         </>
     );
